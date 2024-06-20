@@ -6,14 +6,6 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
-
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/pratham-n-gundikere-094102262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'                  # Fill with your Linkedin homepage
@@ -30,3 +22,11 @@
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
+# - type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
+
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
+
