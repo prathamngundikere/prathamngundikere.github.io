@@ -2,7 +2,7 @@
 title: Getting Started with Jetpack Compose - A Beginner's Guide
 date: 2024-06-23 08:00:00 +0530
 categories: [Android Development, Jetpack Compose]
-tegs: [android, jetpack-compose]
+tags: [android, jetpack-compose]
 image: /assets/img/jetpack-compose.png
 ---
 
