@@ -5,7 +5,7 @@ categories: [Android Development, Jetpack Compose]
 tags: [android, jetpack-compose, box, column, row, constraint-layout, lazy-column, lazy-row, scaffold, spacer, surface, card, divider, flow-row, flow-column, lazy-vertical-grid, scrollable-row, scrollable-column, vertical-scroll, horizontal-scroll, stack, bow-with-constraints, custom-layout]
 ---
 
-Jetpack Compose is a modern toolkit for building native Android UI, It simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs. One of the key aspects of creating UI with Jetpack Composeis understanding its various layout elements. In this blog, we'll explore 25 essential layout elements in Jetpack Compose - let's get to it.
+Jetpack Compose is a modern toolkit for building native Android UI, It simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs. One of the key aspects of creating UI with Jetpack Composeis understanding its various layout elements. In this blog, we'll explore 6 essential layout elements in Jetpack Compose - let's get to it.
 
 ## 1. Box
 
