@@ -31,6 +31,8 @@
   }
 
   button {
+    width: fit-content;
+    align-self: center;
     background-color: var(--btn-color);
     color: var(--btn-text-color);
     border: none;

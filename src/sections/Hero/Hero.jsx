@@ -56,9 +56,7 @@ function Hero() {
         <p className={styles.description}>
           Making modern Native Android Apps for my personal projects from past 2 years
         </p>
-        <a>
           <button onClick = {() => document.getElementById('projects').scrollIntoView({behavior: 'smooth'})} className="hover">My Work</button>
-        </a>
       </div>
     </section>
   );
