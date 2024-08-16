@@ -79,6 +79,14 @@
   gap: 20px;
 }
 
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
@@ -89,6 +97,9 @@
       max-width: 350px;
       width: 350px;
     }
+  }
+  .buttonContainer {
+    flex-direction: row;
   }
 }
 

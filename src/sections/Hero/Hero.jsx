@@ -56,7 +56,10 @@ function Hero() {
         <p className={styles.description}>
           Making modern Native Android Apps for my personal projects from past 2 years
         </p>
-          <button onClick = {() => document.getElementById('projects').scrollIntoView({behavior: 'smooth'})} className="hover">My Work</button>
+        <div className={styles.buttonContainer}>
+          <button onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })} className="hover">My Work</button>
+          <button onClick={() => window.open('https://prathamngundikere.hashnode.dev/', '_blank')} className="hover">My Blog</button>
+        </div>
       </div>
     </section>
   );
