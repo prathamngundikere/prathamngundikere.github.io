@@ -6,7 +6,7 @@ function Footer() {
       <p>
         &copy; 2024 prathamngundikere <br />
         All rights reserved
-        <a href="src/assets/3.jpg" target="_blank" rel="noopener noreferrer">
+        <a href="../assets/3.jpg" target="_blank" rel="noopener noreferrer">
   Open Image
 </a>
       </p>
