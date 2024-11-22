@@ -26,7 +26,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Pratham N Gundikere"
         />
         <img
           className={styles.colorMode}
@@ -43,9 +43,6 @@ function Hero() {
         </h1>
         <h2>Android Developer</h2>
         <span>
-          <a href="https://x.com/prathamng?t=UP2hZ40w4ID048-mCawYtA&s=09" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
           <a href="https://github.com/prathamngundikere" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
@@ -58,7 +55,7 @@ function Hero() {
         </p>
         <div className={styles.buttonContainer}>
           <button onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })} className="hover">My Work</button>
-          <button onClick={() => window.open('https://prathamngundikere.hashnode.dev/', '_blank')} className="hover">My Blog</button>
+          <button onClick={() => window.open('https://medium.com/@prathamgundikere', '_blank')} className="hover">My Blog</button>
         </div>
       </div>
     </section>
