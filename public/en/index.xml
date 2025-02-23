@@ -9,7 +9,7 @@
     <managingEditor>Pratham N Gundikere</managingEditor>
     
       <webMaster>Pratham N Gundikere</webMaster>
-    <lastBuildDate>Sat, 22 Feb 2025 23:57:05 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 13:14:19 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authoring Cover Images and Audio Articles</title>
@@ -81,7 +81,7 @@
       <author>Pratham N Gundikere</author>
       <guid>http://localhost:1313/en/post/configure-menu/</guid>
       <description>&lt;h2 id=&#34;hero-section--greeter&#34;&gt;Hero Section / Greeter&lt;/h2&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
-      
+      <enclosure url="https://images.dog.ceo/breeds/corgi-cardigan/n02113186_11789.jpg" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Configure Pagefind</title>
