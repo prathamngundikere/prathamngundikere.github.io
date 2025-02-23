@@ -148,3 +148,27 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
         # schema = true
         ## JsonLD (EXPERIMENTAL, cannot validate permalink)
         # jsonLD = true
+
+[[menu.footer]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/prathamngundikere"
+    pre = "github"
+
+[[menu.footer]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/prathamngundikere"
+    pre = "linkedin"
+
+[[menu.footer]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/prathamngundikere"
+    pre = "instagram"
+
+[[menu.footer]]
+    identifier = "x"
+    name = "X"
+    url = "https://twitter.com/prathamngundikere"
+    pre = "x"

@@ -1,10 +1,10 @@
 ---
 type: 'slide'
-title: 'Pratham'
+title: 'About'
 cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/28.svg'
 weight: 1
 ---
 
-This demonstrates an example of three slide item. The navigation will change when there are three or more slides.
+**Pratham N Gundikere** — *Android Developer & Tech Enthusiast*  
 
-This is slide layout with cover image in frontmatter.
+Curious about all things tech and driven to learn every day. After discovering [NetworkChuck's](https://www.youtube.com/c/NetworkChuck) videos, I felt inspired to share my knowledge with the world. Let’s build, break, and explore together!

@@ -2,10 +2,12 @@
 cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg'
 ---
 
-## Hero Section / Greeter
+## **Welcome**  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hey there! I’m **Pratham**, a dedicated student and self-professed code geek with a passion for **Android development** and hands-on learning. This space is where I share tips, tricks, and everything that sparks my curiosity in tech. I’m excited to have you along for the ride!  
 
-Integer nec posuere quam. Mauris et rhoncus lacus. Pellentesque non sem cursus, interdum nunc ut, efficitur magna. Maecenas consectetur ornare enim, nec tempus tellus vestibulum in.
+I specialize in **Android**, dabble in **web technologies**, and live by the motto:  
+**“Well-coded directives executed every day.”**  
+Or, more simply: *learn by doing*. I’m not one for heavy theory—my best insights come from rolling up my sleeves and diving into real-world projects.  
 
---- Lorem Ipsum
+This blog is my personal corner of the internet, a place where I pour out my thoughts on **software engineering**, emerging tech trends, and any fascinating topics that catch my eye. I’m always evolving, always experimenting, and always open to **collaboration**.  

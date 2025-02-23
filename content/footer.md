@@ -1,15 +1,11 @@
 ---
 type: 'footer'
 weight: 1
-target: 'https://example.com'
-coffee: 4
+target: 'https://prathamngundikere.github.io'
+title: "Pratham N Gundikere (c) 2025"
+coffee: 3
 ---
-
-<strong class="section-title">Foxx Edelweiss <i class="icon copyleft"></i> 2025</strong>
-
 Some rights reserved.
 
-<br>
-<strong class="section-title">Impressum</strong>
-
-Lorem ipsum dolor sit amet.
+### Closing Note
+Fueled by curiosity and guided by practice—thanks for visiting my portfolio and blog! Keep exploring, keep coding, and never stop learning.
