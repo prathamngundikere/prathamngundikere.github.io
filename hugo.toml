@@ -13,7 +13,7 @@ defaultContentLanguage = 'en'
 ## Put default language in subdirectory
 defaultContentLanguageInSubdir = false
 ## Use sections for main menu
-# sectionPagesMenu = 'main'
+sectionPagesMenu = 'main'
 ## Files to ignore when building site
 ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
 
@@ -131,11 +131,11 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
         ## Default social card image, same as .Params.images
         # images = "img/social-share.jpg" 
         ## Enable Twitter cards
-        # twitter = true
+         twitter = true
         ## Twitter creator handle
-        # twitterCreator = "@username"
+         twitterCreator = "@prathamng"
         ## Twitter site handle
-        # twitterSite = "@username"
+         twitterSite = "@prathamng"
 
         ## Enable OpenGraph
         # opengraph = true
@@ -158,7 +158,7 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
 [[menu.footer]]
     identifier = "linkedin"
     name = "LinkedIn"
-    url = "https://www.linkedin.com/in/prathamngundikere"
+    url = "https://in.linkedin.com/in/prathamngundikere"
     pre = "linkedin"
 
 [[menu.footer]]
@@ -170,5 +170,5 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
 [[menu.footer]]
     identifier = "x"
     name = "X"
-    url = "https://twitter.com/prathamngundikere"
+    url = "https://x.com/prathamng"
     pre = "x"
