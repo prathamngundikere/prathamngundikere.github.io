@@ -12,28 +12,63 @@
     <changefreq>monthly</changefreq>
     </url>
   <url>
+    <loc>http://localhost:1313/categories/automation/</loc>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/tags/blogposting/</loc>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-02-23T16:45:16+05:30</lastmod>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
     <loc>http://localhost:1313/categories/main/</loc>
-    <lastmod>2025-02-23T16:45:16+05:30</lastmod>
+    <lastmod>2025-02-23T21:35:39+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/post/my-blog-automation/</loc>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
     <loc>http://localhost:1313/post/my-first-post/</loc>
-    <lastmod>2025-02-23T16:45:16+05:30</lastmod>
+    <lastmod>2025-02-23T18:47:59+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/tags/networkchuck/</loc>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
     <loc>http://localhost:1313/tags/post/</loc>
-    <lastmod>2025-02-23T16:45:16+05:30</lastmod>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/tags/script/</loc>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-02-23T16:45:16+05:30</lastmod>
+    <lastmod>2025-02-23T22:37:28+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/tags/test/</loc>
+    <lastmod>2025-02-23T21:35:39+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/post/test-note/</loc>
+    <lastmod>2025-02-23T21:35:39+05:30</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>

@@ -21,6 +21,8 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Pratham" />
     <meta name="twitter:description" content="An ExampleSite built with Hugo and Hugo-Brewm theme" />
+        <meta name="twitter:site" content="@@prathamng" />
+        <meta name="twitter:creator" content="@@prathamng" />
     
     <!-- openGraph -->
     <meta property="og:title" content="Pratham" />
@@ -30,13 +32,16 @@
     <meta property="og:site_name" content="Pratham" /><link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Pratham" />
     <!-- js.html -->
     <script src="http://localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
-    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css"><link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+    
     <!-- css/inline.html -->
     <style>
          
         body {max-width: 786px; margin: auto; padding: 2rem;}
         img {max-width: 86vw;}
+            * p {text-indent: unset !important;}
     </style>
+
     <!-- list.html [head] -->
         <style>
             body{margin: auto !important;max-width: 2560px !important}body > footer.pagewidth,body > header.pagewidth{padding: 0 calc(1.5rem + 1ex)}body > aside.carousel{position: sticky;position: -webkit-sticky;left: 0;float: left; padding: 1rem;width: 38vw;height: var(--vbody)}body > main#home {height: var(--vbody);overflow-y: auto}body > main#home > aside#list-tags{top: 0;right:0;margin: 1rem auto;width: calc(100% - var(--golden-ratio));}#home #top{padding: 0 1rem}#home #list-posts{padding: 1rem;width: var(--golden-ratio)}div[role="feed"]{padding: 1ex;}.carousel .feed-item,#home .feed-item,hr.ldots{width: unset}#main-footer > .pagewidth {padding: 0 1ex}#duckduckgo,#i18n-menu > .on-plank,#more-menu > .on-plank,.pagefind-ui{margin-right: 1rem}#hasDuckDuckGo.pagewidth{padding-right: 1rem}#grain{display: none;}@media only screen and (max-width: 960px){body > footer,body > header{background: var(--bg)}body > aside.carousel{float: unset;margin: 0 1rem;padding: 1rem 0;width: unset}body > main#home{height: unset;overflow-y: unset}aside + main#home {margin-top: var(--vhead);}body > main#home > aside#list-tags{top: var(--vhead)}}@media only screen and (max-width: 640px){#main-footer > .pagewidth{padding: 0 calc(var(--void) / 2)}body > main#home > aside#list-tags{padding: unset;width: var(--canonic)}aside #list-posts .feed-item > section{flex-direction: row-reverse;aspect-ratio: 10/3}#home #list-posts{margin: var(--bigskip) auto;padding: unset;width: var(--canonic)}#list-posts .section-title{padding-left: unset}#duckduckgo,.pagefind-ui{margin-right: 1ex}}@media only screen and (max-width: 480px){aside #list-posts .feed-item > section{flex-direction: column;aspect-ratio: unset}}
@@ -68,6 +73,32 @@
         </summary>
         <nav tabindex="-1" aria-label="Top Nav">
             <!-- menu.html -->
+<details id="has-main-menu" class="presentation" open>
+    <summary  class="hide"  aria-label="Main Menu">
+        <span>Main Menu</span>
+    </summary>
+        
+        <nav id="main-menu" aria-label="Main Menu">
+            <ul class="l1 " role="presentation" tabindex="-1" >
+                
+    
+        <li role="presentation">
+    <a   class=on-deck href=http://localhost:1313/author/
+        >
+        
+            <span>Authors</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=on-deck href=http://localhost:1313/post/
+        >
+        
+            <span>Post</span>
+    </a>
+        </li>
+            </ul>
+        </nav>
+</details>
             <!-- search.html -->
 <details id="has-search" class="presentation js-details" name="on-deck">
     <summary class="on-deck" accesskey="q" aria-keyshortcuts="q">
@@ -224,10 +255,18 @@
             <!-- taxonomies.html -->
         <ul class="carousel__viewport" role="presentation">
             
-                    <li  style="background-image:url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/1.svg);">
+                    <li  style="background-image:url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg);">
+                        <a href="http://localhost:1313/categories/automation/"
+                            aria-label="Category:Automation"
+                            data-post-counter="1"
+                            >
+                            <span>Automation</span>
+                        </a>
+                    </li>
+                    <li  style="background-image:url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/11.svg);">
                         <a href="http://localhost:1313/categories/main/"
                             aria-label="Category:Main"
-                            data-post-counter="1"
+                            data-post-counter="2"
                             >
                             <span>Main</span>
                         </a>
@@ -260,11 +299,43 @@ Or, more simply: <em>learn by doing</em>. I’m not one for heavy theory—my be
         <ul class="rounded has-hash" role="presentation">
             
                     <li  >
-                        <a href="http://localhost:1313/tags/post/"
-                            aria-label="Tag:Post"
+                        <a href="http://localhost:1313/tags/blogposting/"
+                            aria-label="Tag:Blogposting"
                             data-post-counter="1"
                             >
+                            <span>Blogposting</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="http://localhost:1313/tags/networkchuck/"
+                            aria-label="Tag:Networkchuck"
+                            data-post-counter="1"
+                            >
+                            <span>Networkchuck</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="http://localhost:1313/tags/post/"
+                            aria-label="Tag:Post"
+                            data-post-counter="3"
+                            >
                             <span>Post</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="http://localhost:1313/tags/script/"
+                            aria-label="Tag:Script"
+                            data-post-counter="1"
+                            >
+                            <span>Script</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="http://localhost:1313/tags/test/"
+                            aria-label="Tag:Test"
+                            data-post-counter="1"
+                            >
+                            <span>Test</span>
                         </a>
                     </li>
         </ul>
@@ -283,9 +354,54 @@ Or, more simply: <em>learn by doing</em>. I’m not one for heavy theory—my be
                     <div role="feed" aria-busy="false">
                         <article class="feed-item"
         aria-posinset="1"
-        aria-setsize="1"
+        aria-setsize="3"
         aria-labelledby="title-1"
         aria-describedby="desc-1">
+        <hgroup>
+            <div>
+                <span><span>Pratham N Gundikere</span>
+                        <span>in</span>
+                            <!-- terms.html -->
+    <ul class="inline" role="presentation">
+            <li><a href="http://localhost:1313/categories/automation/">Automation</a></li>
+    </ul>
+                        
+                </span>
+                
+                <!-- timestamp.html-->
+    <div >
+        <time class="doc-publish-date" datetime="2025-02-23T00:00:00&#43;00:00" data-time-label="Published on">February 23, 2025</time>
+    </div>
+            </div>
+            <a href="http://localhost:1313/post/my-blog-automation/">
+                <h1 id="title-1">My Blog Automation</h1>
+            </a>
+        </hgroup>
+        <a class="underline" href="http://localhost:1313/post/my-blog-automation/" aria-label="My Blog Automation"></a>
+        
+        <section class="has-cover">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/19.svg" alt="" style="object-position: 62% 14%" loading="lazy">
+            <div class="par" id="desc-1">Here is my cool way to post a blog right from my Obsidian, with less friction as possible. Check out!!
+            </div>
+        </section>
+        <footer>
+            <span class="readingTime">9 min read
+            </span>
+            
+                <!-- terms.html -->
+    <ul class="rounded invert ldots" role="presentation">
+            <li><a href="http://localhost:1313/tags/post/">Post</a></li>
+            <li><a href="http://localhost:1313/tags/script/">Script</a></li>
+            <li><a href="http://localhost:1313/tags/blogposting/">Blogposting</a></li>
+            <li><a href="http://localhost:1313/tags/networkchuck/">Networkchuck</a></li>
+    </ul>
+        </footer>
+    </article><hr class="ldots" role="presentation" aria-hidden="true">
+                        <article class="feed-item"
+        aria-posinset="2"
+        aria-setsize="3"
+        aria-labelledby="title-2"
+        aria-describedby="desc-2">
         <hgroup>
             <div>
                 <span><span>Pratham N Gundikere</span>
@@ -303,14 +419,14 @@ Or, more simply: <em>learn by doing</em>. I’m not one for heavy theory—my be
     </div>
             </div>
             <a href="http://localhost:1313/post/my-first-post/">
-                <h1 id="title-1">My First Post</h1>
+                <h1 id="title-2">My First Post</h1>
             </a>
         </hgroup>
         <a class="underline" href="http://localhost:1313/post/my-first-post/" aria-label="My First Post"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg" alt="" style="object-position: 52% 30%" loading="lazy">
-            <div class="par" id="desc-1">Fill this
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/12.svg" alt="" style="object-position: 10% 33%" loading="lazy">
+            <div class="par" id="desc-2">Fill this
             </div>
         </section>
         <footer>
@@ -320,6 +436,49 @@ Or, more simply: <em>learn by doing</em>. I’m not one for heavy theory—my be
                 <!-- terms.html -->
     <ul class="rounded invert ldots" role="presentation">
             <li><a href="http://localhost:1313/tags/post/">Post</a></li>
+    </ul>
+        </footer>
+    </article><hr class="ldots" role="presentation" aria-hidden="true">
+                        <article class="feed-item"
+        aria-posinset="3"
+        aria-setsize="3"
+        aria-labelledby="title-3"
+        aria-describedby="desc-3">
+        <hgroup>
+            <div>
+                <span><span>Pratham N Gundikere</span>
+                        <span>in</span>
+                            <!-- terms.html -->
+    <ul class="inline" role="presentation">
+            <li><a href="http://localhost:1313/categories/main/">Main</a></li>
+    </ul>
+                        
+                </span>
+                
+                <!-- timestamp.html-->
+    <div >
+        <time class="doc-publish-date" datetime="2025-02-23T00:00:00&#43;00:00" data-time-label="Published on">February 23, 2025</time>
+    </div>
+            </div>
+            <a href="http://localhost:1313/post/test-note/">
+                <h1 id="title-3">Test Note</h1>
+            </a>
+        </hgroup>
+        <a class="underline" href="http://localhost:1313/post/test-note/" aria-label="Test Note"></a>
+        
+        <section class="has-cover">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/10.svg" alt="" style="object-position: 39% 54%" loading="lazy">
+            <div class="par" id="desc-3">This a test note to make sure that things did not break
+            </div>
+        </section>
+        <footer>
+            <span class="readingTime">1 min read
+            </span>
+            
+                <!-- terms.html -->
+    <ul class="rounded invert ldots" role="presentation">
+            <li><a href="http://localhost:1313/tags/post/">Post</a></li>
+            <li><a href="http://localhost:1313/tags/test/">Test</a></li>
     </ul>
         </footer>
     </article>
@@ -339,7 +498,7 @@ Or, more simply: <em>learn by doing</em>. I’m not one for heavy theory—my be
                 <div id="main-footer-secondary" class="column" style="--col: 15rem">
                         <div id="coffee-counter">
                             <strong class="section-title">Coffee Stat</strong>
-                            <p>Making this website has taken at least 4 cups of coffee, if not more.</p>
+                            <p>Making this website has taken at least 6 cups of coffee, if not more.</p>
                         </div>                    
                     <!-- menu.html -->
     <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
@@ -354,12 +513,12 @@ Or, more simply: <em>learn by doing</em>. I’m not one for heavy theory—my be
                     <span class="t" role="tooltip">Instagram</span>
                 </a>
             </li>
-            <li><a href="https://www.linkedin.com/in/prathamngundikere" aria-label="LinkedIn">        
+            <li><a href="https://in.linkedin.com/in/prathamngundikere" aria-label="LinkedIn">        
                     <i class="icon linkedin" role="presentation" aria-hidden="true"></i>
                     <span class="t" role="tooltip">LinkedIn</span>
                 </a>
             </li>
-            <li><a href="https://twitter.com/prathamngundikere" aria-label="X">        
+            <li><a href="https://x.com/prathamng" aria-label="X">        
                     <i class="icon x" role="presentation" aria-hidden="true"></i>
                     <span class="t" role="tooltip">X</span>
                 </a>

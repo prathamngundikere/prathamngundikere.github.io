@@ -18,10 +18,10 @@ sectionPagesMenu = 'main'
 ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
 
 ## Enable code fence highlighting
+## Markup configuration
 [markup]
     [markup.highlight]
         codeFences = true
-
 ## Sitemap configuration
 [sitemap]
     ## Change frequency setting (will affect posts listings layout): 'always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never'
