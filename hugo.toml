@@ -1,5 +1,5 @@
 ## Base URL for the site
-baseURL = 'https://prathamngundikere.github.io'
+baseURL = "https://prathamngundikere.github.io/"
 ## Site title
 title = 'Pratham'
 ## Use hugo-brewm theme
