@@ -336,7 +336,7 @@ jobs:
         uses: actions/deploy-pages@v4.0.5
 ```
 
-Now all is set. It is time for Python Script to copy images from Obsidian attachment folder to your site. I got this from [NetworkChuck]("https://www.youtube.com/@NetworkChuck"). Make a `image,py` in you home directory (recommended)
+Now all is set. It is time for Python Script to copy images from Obsidian attachment folder to your site. I got this from [NetworkChuck](https://www.youtube.com/@NetworkChuck). Make a `image,py` in you home directory (recommended)
 
 ```python
 import os
@@ -379,8 +379,8 @@ print("Markdown files processed and images copied successfully.")
 
 Make changes with your own file locations.
 
-> [!note] Note
-> Add you git and push it GitHub atleast once before you run mega script. I cannot spoon feed you everything
+> Note
+	Add you git and push it GitHub atleast once before you run mega script. I cannot spoon feed you everything
 
 Now time for **MEGA SCRIPT**. In your home directory create a file `sync.sh` 
 

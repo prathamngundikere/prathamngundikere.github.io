@@ -96,7 +96,7 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
         ## Enable text justification
         justifying = false
         ## Disable paragraph indentation
-        noIndent = false
+        noIndent = true
         ## Show colophon section (including QR code)
         colophon = true
         ## disable redaction history
