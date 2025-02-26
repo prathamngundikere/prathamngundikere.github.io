@@ -13,9 +13,10 @@ tags:
   - networkchuck
 categories:
   - Automation
-image: ""
+image: "![[obsidian-icon.svg]]"
 back-links: "[[Blog Post]]"
 ---
+![[obsidian-icon.svg]]
 ## What I mean by Automation?
 
 It is just a shell script which i run just after I finished typing my blog and my coffee. I just makes thing way more easier and also serves me the ego of having my own blog site. It is just cool. Here you go -->
