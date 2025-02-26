@@ -1,5 +1,5 @@
 ---
-cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg'
+cover: 'https://raw.githubusercontent.com/prathamngundikere/prathamngundikere.github.io/refs/heads/master/static/images/pratham_with_dog.png'
 ---
 
 ## **Welcome**  

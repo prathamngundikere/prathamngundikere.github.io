@@ -1,7 +1,7 @@
 ---
 type: 'slide'
 title: 'About'
-cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/28.svg'
+cover: 'https://raw.githubusercontent.com/prathamngundikere/prathamngundikere.github.io/refs/heads/master/static/images/pratham_slider.jpeg'
 weight: 1
 ---
 
