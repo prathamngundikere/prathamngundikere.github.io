@@ -14,6 +14,7 @@ tags:
 categories:
   - Automation
 image: ""
+back-links: "[[Blog Post]]"
 ---
 ## What I mean by Automation?
 
