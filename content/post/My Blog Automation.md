@@ -15,15 +15,15 @@ categories:
   - Automation
 image: ""
 ---
-# What I mean by Automation?
+## What I mean by Automation?
 
 It is just a shell script which i run just after I finished typing my blog and my coffee. I just makes thing way more easier and also serves me the ego of having my own blog site. It is just cool. Here you go -->
 
-# Where do I type my Blog?
+## Where do I type my Blog?
 
 In Obsidian. If you are not using it then you have to give it a try it awesome and you get way more control of your data.
 
-# Here is my Pipeline
+## Here is my Pipeline
 
 ![Image Description](/images/Pasted%20image%2020250223214612.png)
 
@@ -31,7 +31,7 @@ Just make a folder like this. Here you add all the you posts in the future.
 
 I am using Ubuntu so all my commands are made to work on Ubuntu... If you are using something different then make necessary changes.
 
-## Set up Prerequisites
+### Set up Prerequisites
 
 - Install Go
 - Install Hugo
@@ -39,7 +39,7 @@ I am using Ubuntu so all my commands are made to work on Ubuntu... If you are us
 
 That's it. Google them and follow the instructions.
 
-## Set up Hugo Site
+### Set up Hugo Site
 
 Go to your terminal `ctrl+alt+t` in Linux.
 
@@ -53,7 +53,7 @@ There go to the directory of your choice and
 
 here `mysite` can be anything you wish.
 
-### Add theme 
+#### Add theme 
 For theme I chose `hugo-brewm` . It just looks cool. Here are the instruction and this applies to most of the Hugo theme. 
 
 Add git-sub-module
@@ -379,8 +379,7 @@ print("Markdown files processed and images copied successfully.")
 
 Make changes with your own file locations.
 
-> Note
-	Add you git and push it GitHub atleast once before you run mega script. I cannot spoon feed you everything
+> Note : Add you git and push it GitHub atleast once before you run mega script. I cannot spoon feed you everything
 
 Now time for **MEGA SCRIPT**. In your home directory create a file `sync.sh` 
 
@@ -461,7 +460,4 @@ If everything is good, It should work. If not, don't worry you will figure it ou
 
 Alright thank you for coming down this far. See you in next one
 
-
 ***BYE!!!***
-
-png
