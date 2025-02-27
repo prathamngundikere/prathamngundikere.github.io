@@ -8,5 +8,4 @@ weight: 1
 **Pratham N Gundikere**  
 *Android Developer & Tech Enthusiast*
 
-I’m a self-driven developer *passionate* about creating high-quality Android apps and exploring emerging tech. With a focus on Kotlin, Jetpack Compose, Firebase, and AI, I build intuitive, performance-optimized applications that solve real-world problems. Inspired by constant learning, I love sharing my journey, from coding tips to **hands-on** projects, to help others grow alongside me.
-
+Passionate about building Android apps with Kotlin, Jetpack Compose, Firebase, and AI. I love solving real-world problems with intuitive, high-performance solutions. Constantly learning and sharing my journey to help others grow in tech.
