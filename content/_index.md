@@ -2,12 +2,8 @@
 cover: 'https://raw.githubusercontent.com/prathamngundikere/prathamngundikere.github.io/refs/heads/master/static/images/pratham_with_dog.png'
 ---
 
-## **Welcome**  
+## **Welcome!**  
 
-Hey there! I’m **Pratham**, a dedicated student and self-professed code geek with a passion for **Android development** and hands-on learning. This space is where I share tips, tricks, and everything that sparks my curiosity in tech. I’m excited to have you along for the ride!  
+Hey, I’m **Pratham!** I specialize in *Android development* and am constantly pushing myself to learn new technologies and improve my skills. From integrating AI into apps with TensorFlow Lite to experimenting with backend solutions like FastAPI, I embrace the challenge of creating tech that makes a difference.
 
-I specialize in **Android**, dabble in **web technologies**, and live by the motto:  
-**“Well-coded directives executed every day.”**  
-Or, more simply: *learn by doing*. I’m not one for heavy theory—my best insights come from rolling up my sleeves and diving into real-world projects.  
-
-This blog is my personal corner of the internet, a place where I pour out my thoughts on **software engineering**, emerging tech trends, and any fascinating topics that catch my eye. I’m always evolving, always experimenting, and always open to **collaboration**.  
+When I’m not coding, I’m learning karate. My motto is simple: *learn by doing*. Whether it's diving into new tech or sharing my insights, I'm excited to explore, break boundaries, and build innovative solutions with you.
