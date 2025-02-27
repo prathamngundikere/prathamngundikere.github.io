@@ -40,7 +40,7 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
     ## Enable coffee metric
     coffeeStat = true
     ## Default social card image, recommended resolution: 1200 x 630px
-    # images = "example.com/img/social-share.jpg" 
+    images = "https://raw.githubusercontent.com/prathamngundikere/prathamngundikere.github.io/refs/heads/master/static/images/pratham_with_dog.png" 
 
 
     ## Author information
@@ -48,7 +48,7 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
         ## site author's name
         name = 'Pratham N Gundikere'
         ## Author's email
-        email = 'prathamngundikere@yahoo.com'
+        email = ''
         ## Other method to customize author and co-authors information
         #coauthor = [
         #    {name = "A.N. Other", bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
