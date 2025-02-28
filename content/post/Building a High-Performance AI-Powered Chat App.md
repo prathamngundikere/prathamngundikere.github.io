@@ -1,20 +1,19 @@
 ---
 author: Pratham N Gundikere
-title:
-  "{ Title }": 
-description: Building a real-time chat application with AI-powered interactions. This will not be just another chat app—it will be fast, scalable, and intelligent
-date:
-  "{ date }": 
+title: Building a High-Performance AI-Powered Chat App
+description: Fill this
+date: 2025-02-28
 type: post
 draft: false
 coffee: 1
 tags:
   - post
 categories:
-  - main
+  - Chat Application Journey
 image: 
 back-links: "[[Blog Post]]"
 ---
+
 ## Introduction
 
 After working on various projects and experimenting with different technologies, I have decided to embark on an exciting new journey: **building a real-time chat application with AI-powered interactions**. This will not be just another chat app—it will be **fast, scalable, and intelligent**. To achieve this, I am using a carefully chosen tech stack that balances **performance, scalability, and AI capabilities**.
