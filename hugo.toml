@@ -16,6 +16,8 @@ defaultContentLanguageInSubdir = false
 sectionPagesMenu = 'main'
 ## Files to ignore when building site
 ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
+enableRobotsTXT = true
+
 
 ## Enable code fence highlighting
 ## Markup configuration
