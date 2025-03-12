@@ -174,3 +174,7 @@ enableRobotsTXT = true
     name = "X"
     url = "https://x.com/prathamng"
     pre = "x"
+
+
+[outputs]
+home = ["HTML", "RSS", "SITEMAP", "ROBOTS"]
