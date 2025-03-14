@@ -15,7 +15,7 @@ categories:
 image: 
 back-links: "[[Blog Post]]"
 ---
-!![Image Description](/images/android_library.png)
+![Image Description](/images/android_library.png)
 
 
 Hosting Library has always been tough. Here in this blog I give clear steps on how to host a Android Library on Maven Central.
@@ -42,7 +42,7 @@ Here is few important commands from the video
 ## Setting Android Library
 
 Create a new Project and Inside create a new Android Library
-!![Image Description](/images/Pasted%20image%2020250314185826.png)
+![Image Description](/images/Pasted%20image%2020250314185826.png)
 
 Create a new file in the Library
 
@@ -180,4 +180,4 @@ You can push the entire thing to github and make it open source.
 
 Finally you get something like this in Maven Central 
 
-!![Image Description](/images/Pasted%20image%2020250314192526.png)
+![Image Description](/images/Pasted%20image%2020250314192526.png)

@@ -43,7 +43,7 @@ for filename in os.listdir(posts_dir):
         with open(filepath, "r") as file:
             content = file.read()
         
-        # Step 2: Find all image links in the format ![Image Description](/images/image.png)
+        # Step 2: Find all image links in the format [Image Description](/images/image.png)
         images = re.findall(r'\[\[([^]]*\.png)\]\]', content)
         
         # Step 3: Replace image links with Hugo-compatible Markdown format
