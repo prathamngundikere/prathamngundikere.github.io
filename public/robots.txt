@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://prathamngundikere.github.io/sitemap.xml
+Sitemap: https://prathamngundikere.github.io/mysite.xml
