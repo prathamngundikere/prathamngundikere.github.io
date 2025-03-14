@@ -27,7 +27,8 @@ enableRobotsTXT = true
 ## Sitemap configuration
 [sitemap]
     ## Change frequency setting (will affect posts listings layout): 'always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never'
-    changeFreq = 'monthly'
+    changeFreq = 'daily'
+    filename = "mysite.xml"  # Sitemap file name
 
 ## Site parameters
 [params]
@@ -174,7 +175,3 @@ enableRobotsTXT = true
     name = "X"
     url = "https://x.com/prathamng"
     pre = "x"
-
-
-[outputs]
-home = ["HTML", "RSS", "SITEMAP", "ROBOTS"]

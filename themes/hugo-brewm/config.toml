@@ -2,3 +2,9 @@
   [module.hugoVersion]
     extended = false
     min = "0.135.0"
+
+## Sitemap configuration
+[sitemap]
+    ## Change frequency setting (will affect posts listings layout): 'always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never'
+    changeFreq = 'daily'
+    filename = "mysite.xml"  # Sitemap file name
