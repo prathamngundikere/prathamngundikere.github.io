@@ -52,7 +52,11 @@ In today's world, chat applications are an integral part of communication. Wheth
 
 ## Key Features
 
-✅ **Real-time Chat** powered by WebSockets for instant messaging. ✅ **AI-Powered Conversations** using on-device and server-based AI models. ✅ **Scalability & Performance** with Golang, Redis, and Kubernetes. ✅ **Cross-Platform Support** for both Android and Web users. ✅ **Secure Authentication** with Firebase/Supabase for user management.
+ - **Real-time Chat** powered by WebSockets for instant messaging. 
+ - **AI-Powered Conversations** using on-device and server-based AI models. 
+ - **Scalability & Performance** with Golang, Redis, and Kubernetes. 
+ - **Cross-Platform Support** for both Android and Web users. 
+ - **Secure Authentication** with Firebase/Supabase for user management.
 
 ## What’s Next?
 
