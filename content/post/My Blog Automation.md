@@ -27,7 +27,7 @@ In Obsidian. If you are not using it then you have to give it a try it awesome a
 
 ## Here is my Pipeline
 
-![Image Description](/images/Pasted%20image%2020250223214612.png)
+![[Pasted image 20250223214612.png]]
 
 Just make a folder like this. Here you add all the you posts in the future.
 

@@ -49,16 +49,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   - Another nested item
 
 
-![Image Description](/images/imimimg.png)
+![[imimimg.png]]
 
 ![Image alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Domestic_cat_sitting_by_door.jpg/640px-Domestic_cat_sitting_by_door.jpg)
 
   
 
 | Header 1 | Header 2 |
-|----------|----------|
-| Cell 1 | Cell 2 |
-| Cell 3 | Cell 4 |
+| -------- | -------- |
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
 
 
 Task list:

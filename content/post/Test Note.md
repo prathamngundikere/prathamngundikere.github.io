@@ -18,7 +18,7 @@ back-links: "[[Blog Post]]"
 
 If you are watching this, just answer were you stalking me.
 
-![Image Description](/images/Pasted%20image%2020250223211550.png)
+![[Pasted image 20250223211550.png]]
 
 Now all my automation is set....
 
