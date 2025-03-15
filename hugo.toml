@@ -28,7 +28,7 @@ enableRobotsTXT = true
 [sitemap]
     ## Change frequency setting (will affect posts listings layout): 'always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never'
     changeFreq = 'daily'
-    filename = "mysite.xml"  # Sitemap file name
+    #filename = "mysite.xml"  # Sitemap file name
 
 ## Site parameters
 [params]
