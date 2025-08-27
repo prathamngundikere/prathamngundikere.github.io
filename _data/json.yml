@@ -7,7 +7,7 @@
   typed: true
 - key: CV
   value: cv.pdf
-  url: /cv.pdf
+  url: /cv
 - key: Contact
   value:
     - key: Email
