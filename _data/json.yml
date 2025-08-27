@@ -1,0 +1,23 @@
+- key: Name
+  value: PRATHAM N GUNDIKERE
+- key: Description
+  value:
+    - Machine Learning Engineer
+    - Backend Engineer
+  typed: true
+- key: CV
+  value: cv.pdf
+  url: /cv.pdf
+- key: Contact
+  value:
+    - key: Email
+      value: prathamngundikere@proton.me
+      url: "mailto:prathamngundikere@proton.me"
+- key: Profiles
+  value:
+    - value: LinkedIn
+      url: https://www.linkedin.com/prathamngundikere
+    - value: GitHub
+      url: https://github.com/prathamngundikere
+    - value: X
+      url: https://x.com/prathamng

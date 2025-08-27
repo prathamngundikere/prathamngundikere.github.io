@@ -1,0 +1,19 @@
+current directory: /home/png/Projects/prathamngundikere.github.io/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
+/usr/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /home/png/Projects/prathamngundikere.github.io/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250827-4460-uj50fg sitelibdir\=./.gem.20250827-4460-uj50fg clean
+
+current directory: /home/png/Projects/prathamngundikere.github.io/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250827-4460-uj50fg sitelibdir\=./.gem.20250827-4460-uj50fg
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/png/Projects/prathamngundikere.github.io/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250827-4460-uj50fg sitelibdir\=./.gem.20250827-4460-uj50fg install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20250827-4460-uj50fg/erb
+
+current directory: /home/png/Projects/prathamngundikere.github.io/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250827-4460-uj50fg sitelibdir\=./.gem.20250827-4460-uj50fg clean
