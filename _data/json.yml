@@ -7,7 +7,7 @@
   typed: true
 - key: CV
   value: cv.pdf
-  url: /cv
+  url: https://drive.google.com/file/d/1a-IabFwVh5zZS3jLnMcI88qo0-oGzPpv/view?usp=sharing
 - key: Contact
   value:
     - key: Email
