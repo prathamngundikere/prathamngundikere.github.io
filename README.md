@@ -3,6 +3,7 @@ A minimalist, single-page portfolio built with pure HTML &amp; CSS. Features a d
 
 ## Screenshot
 
+<img width="1349" height="769" alt="image" src="https://github.com/user-attachments/assets/c250e3cf-b93a-4268-8038-9eb8e5e38f56" />
 
 
 This repository contains the source code for my personal portfolio website, a minimalist and performant single-page application designed to showcase my skills and projects as a Software Engineer.
