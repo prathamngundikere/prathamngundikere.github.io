@@ -1,0 +1,269 @@
+/* --- General Setup & Theming --- */
+        :root {
+            --bg-color: #111111;
+            --text-color: #f0f0f0;
+            --primary-accent: #a3a3a3;
+            --box-border-color: #333333;
+            --tag-bg-color: #222222;
+            --tag-border-color: #444444;
+            --link-color: #bbbbbb;
+            --link-hover-color: #ffffff;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Helvetica', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* --- Main Content Container --- */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* --- Header Section --- */
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+
+        header h3 {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: var(--primary-accent);
+            margin: 10px 0 30px 0;
+            line-height: 1.6;
+        }
+
+        /* --- Social Links --- */
+        .social-links {
+            margin-bottom: 50px;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-accent);
+            text-decoration: none;
+            margin: 0 12px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--link-hover-color);
+        }
+        
+        .social-links a svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        /* --- Content Box Styling --- */
+        .content-box {
+            border: 1px solid var(--box-border-color);
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        .content-box h2 {
+            font-size: 1.25rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+
+        /* --- Tags within Boxes --- */
+        .tags {
+            margin-bottom: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tags span {
+            background-color: var(--tag-bg-color);
+            border: 1px solid var(--tag-border-color);
+            border-radius: 4px;
+            padding: 5px 10px;
+            font-size: 0.7rem;
+        }
+
+        /* --- Content Lists & Projects --- */
+        .content-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        
+        .content-list a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .content-list a:hover {
+            text-decoration: underline;
+            color: var(--link-hover-color);
+        }
+
+        .content-list li {
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .content-list li::before {
+            content: '•';
+            color: var(--primary-accent);
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .projects {
+            margin-top: 30px;
+        }
+
+        .projects h3 {
+            font-weight: 600;
+            margin: 0 0 15px 0;
+            color: var(--primary-accent);
+        }
+        
+        strong {
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        /* --- New Carousel Styling --- */
+        .carousel {
+            position: relative;
+        }
+
+        .carousel-track-container {
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 15px; /* Add space for the scrollbar */
+        }
+
+        .carousel-track-container::-webkit-scrollbar {
+          height: 8px;
+        }
+        
+        .carousel-track-container::-webkit-scrollbar-track {
+          background: var(--tag-bg-color);
+          border-radius: 4px;
+        }
+
+        .carousel-track-container::-webkit-scrollbar-thumb {
+          background: #555;
+          border-radius: 4px;
+        }
+
+        .carousel-track-container::-webkit-scrollbar-thumb:hover {
+          background: #777;
+        }
+
+        .carousel-track {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 20px; /* Space between slides */
+        }
+
+        .carousel-slide {
+            flex-shrink: 0;
+            width: 100%; /* Default for mobile */
+            scroll-snap-align: start;
+        }
+        
+        .project-box {
+            background-color: var(--tag-bg-color);
+            border-radius: 6px;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .project-box h4 {
+            margin: 0 0 8px 0;
+            font-size: 1.1rem;
+        }
+        
+        .project-box h4 a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        
+        .project-box h4 a:hover {
+            text-decoration: underline;
+        }
+        
+        .project-box p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--primary-accent);
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+        
+        /* --- Footer --- */
+        footer {
+            margin-top: 60px;
+            color: var(--primary-accent);
+            font-size: 1rem;
+        }
+        
+        footer a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--link-hover-color);
+        }
+
+        /* --- Responsive Design --- */
+        @media (min-width: 600px) {
+            .carousel-slide {
+                width: calc(50% - 10px); /* 2 slides */
+            }
+        }
+        
+        @media (max-width: 599px) {
+            header h1 {
+                font-size: 1.8rem; /* Adjust this value as needed */
+                letter-spacing: -0.5px;
+            }
+             .social-links {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+            .social-links a {
+                margin: 0;
+            }
+        }
+
