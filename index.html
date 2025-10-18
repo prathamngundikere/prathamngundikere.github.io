@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATHAM N GUNDIKERE | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* --- General Setup & Theming --- */
+        :root {
+            --bg-color: #111111;
+            --text-color: #f0f0f0;
+            --primary-accent: #a3a3a3;
+            --box-border-color: #333333;
+            --tag-bg-color: #222222;
+            --tag-border-color: #444444;
+            --link-color: #bbbbbb;
+            --link-hover-color: #ffffff;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* --- Main Content Container --- */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* --- Header Section --- */
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+
+        header h3 {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: var(--primary-accent);
+            margin: 10px 0 30px 0;
+            line-height: 1.6;
+        }
+
+        /* --- Social Links --- */
+        .social-links {
+            margin-bottom: 50px;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-accent);
+            text-decoration: none;
+            margin: 0 12px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--link-hover-color);
+        }
+        
+        .social-links a svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        /* --- Content Box Styling --- */
+        .content-box {
+            border: 1px solid var(--box-border-color);
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        .content-box h2 {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 1.25rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+
+        /* --- Tags within Boxes --- */
+        .tags {
+            margin-bottom: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tags span {
+            background-color: var(--tag-bg-color);
+            border: 1px solid var(--tag-border-color);
+            border-radius: 4px;
+            padding: 5px 12px;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 0.8rem;
+        }
+
+        /* --- Content Lists & Projects --- */
+        .content-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        
+        .content-list a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .content-list a:hover {
+            text-decoration: underline;
+            color: var(--link-hover-color);
+        }
+
+        .content-list li {
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .content-list li::before {
+            content: '•';
+            color: var(--primary-accent);
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .projects {
+            margin-top: 30px;
+        }
+
+        .projects h4 {
+            font-family: 'Source Code Pro', monospace;
+            font-weight: 600;
+            margin: 0 0 15px 0;
+            color: var(--primary-accent);
+        }
+        
+        strong {
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        /* --- New Carousel Styling --- */
+        .carousel {
+            position: relative;
+        }
+
+        .carousel-track-container {
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 15px; /* Add space for the scrollbar */
+        }
+
+        .carousel-track-container::-webkit-scrollbar {
+          height: 8px;
+        }
+        
+        .carousel-track-container::-webkit-scrollbar-track {
+          background: var(--tag-bg-color);
+          border-radius: 4px;
+        }
+
+        .carousel-track-container::-webkit-scrollbar-thumb {
+          background: #555;
+          border-radius: 4px;
+        }
+
+        .carousel-track-container::-webkit-scrollbar-thumb:hover {
+          background: #777;
+        }
+
+        .carousel-track {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 20px; /* Space between slides */
+        }
+
+        .carousel-slide {
+            flex-shrink: 0;
+            width: 100%; /* Default for mobile */
+            scroll-snap-align: start;
+        }
+        
+        .project-box {
+            background-color: var(--tag-bg-color);
+            border-radius: 6px;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .project-box h5 {
+            margin: 0 0 8px 0;
+            font-size: 1.1rem;
+        }
+        
+        .project-box h5 a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        
+        .project-box h5 a:hover {
+            text-decoration: underline;
+        }
+        
+        .project-box p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--primary-accent);
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+        
+        /* --- Footer --- */
+        footer {
+            margin-top: 60px;
+            color: var(--primary-accent);
+            font-size: 1rem;
+        }
+        
+        footer a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--link-hover-color);
+        }
+
+        /* --- Responsive Design --- */
+        @media (min-width: 600px) {
+            .carousel-slide {
+                width: calc(50% - 10px); /* 2 slides */
+            }
+        }
+        
+        @media (max-width: 599px) {
+             .social-links {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+            .social-links a {
+                margin: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- === HEADER: NAME, TAGLINE, SOCIALS === -->
+        <header>
+            <h1>PRATHAM N GUNDIKERE</h1>
+            <h3>A Software Engineer building robust Android apps and the backend systems that power them.</h3>
+            <div class="social-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297 24 5.67 18.627.297 12 .297z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                     <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" title="X">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" title="Threads">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"><title>Threads</title><path d="M12 2.75c-4.74 0-8.58 3.84-8.58 8.58s3.84 8.58 8.58 8.58 8.58-3.84 8.58-8.58S16.74 2.75 12 2.75Zm0 15.16c-3.63 0-6.58-2.95-6.58-6.58S8.37 4.75 12 4.75s6.58 2.95 6.58 6.58-2.95 6.58-6.58 6.58Zm-3.13-6.44c.45-1.92 2.14-3.32 4.09-3.32h.04c1.8 0 3.33 1.25 3.52 2.92.05.41.42.69.83.64.41-.05.69-.42.64-.83-.26-2.18-2.2-3.73-4.4-3.73h-.04c-2.4 0-4.38 1.8-4.57 4.1-.03.41.29.77.7.8.41.03.77-.29.8-.7ZM8.93 12.87c.26 2.18 2.2 3.73 4.4 3.73h.04c2.4 0 4.38-1.8 4.57-4.1.03-.41-.29-.77-.7-.8-.41-.03-.77.29-.8.7-.45 1.92-2.14 3.32-4.09 3.32h-.04c-1.8 0-3.33-1.25-3.52-2.92-.05-.41-.42-.69-.83-.64-.41.05-.69.42-.64.83Z"/></svg>
+                </a>
+                 <a href="#" target="_blank" rel="noopener noreferrer" title="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.784.297-1.457.717-2.126 1.387C1.333 2.705.915 3.378.63 4.14c-.3.765-.5 1.635-.558 2.913C.015 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.26 2.148.558 2.913.3.765.718 1.438 1.387 2.126.67.67 1.343 1.09 2.126 1.387.765.3 1.635.5 2.913.558C8.333 23.985 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.26 2.913-.558.784-.297 1.457-.718 2.126-1.387.67-.67 1.09-1.343 1.387-2.126.3-.765.5-1.635.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.26-2.148-.558-2.913-.3-.765-.718-1.438-1.387-2.126C21.313 1.333 20.64 1.09 19.86.63c-.765-.3-1.635-.5-2.913-.558C15.667.015 15.26 0 12 0zm0 2.16c3.203 0 3.585.012 4.85.07 1.17.052 1.805.248 2.227.415.562.217.96.477 1.382.896.419.42.679.82.896 1.383.167.422.363 1.057.413 2.227.06 1.265.072 1.646.072 4.85s-.012 3.585-.072 4.85c-.052 1.17-.248 1.805-.413 2.227-.217.562-.477.96-.896 1.382-.42.419-.82.679-1.383.896-.422.167-1.057.363-2.227.413-1.265.06-1.646.072-4.85.072s-3.585-.012-4.85-.07c-1.17-.052-1.805-.248-2.227-.413-.562-.217-.96-.477-1.382-.896-.419-.42-.679-.82-.896-1.383-.167-.422-.363-1.057-.413-2.227-.06-1.265-.072-1.646-.072-4.85s.012-3.585.072-4.85c.052-1.17.248-1.805.413-2.227.217-.562.477-.96.896-1.382.42-.419.82-.679 1.383-.896.422-.167 1.057-.363 2.227-.413 1.265-.06 1.646-.072 4.85-.072zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"/></svg>
+                </a>
+                 <a href="#" target="_blank" rel="noopener noreferrer" title="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"><title>Facebook</title><path d="M22.675 0h-21.35C.59 0 0 .59 0 1.325v21.35C0 23.41.59 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.735 0 1.325-.59 1.325-1.325V1.325C24 .59 23.41 0 22.675 0z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" title="Medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"><title>Medium</title><path d="M5.62.51l6.15 10.74L17.58.51h4.63v.15l-7.39 12.55 7.93 10.3h-.04v.15h-5.22l-6.19-8.4-5.32 8.4H1.7v-.15L8.7 10.5.51.51H5.62z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" title="DEV Community">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"><title>DEV Community</title><path d="M22.54 19.38l-4.06 2.14c-.13.07-.28.07-.41 0l-4.06-2.14c-.13-.07-.21-.2-.21-.34V4.96c0-.14.08-.27.21-.34l4.06-2.14c.13-.07.28-.07.41 0l4.06 2.14c.13.07.21.2.21.34v14.08c0 .14-.08.27-.21.34zM12.01 4.96v14.08c0 .14-.08.27-.21.34l-4.06 2.14c-.13.07-.28.07-.41 0L3.27 19.38c-.13-.07-.21-.2-.21-.34V4.96c0-.14.08-.27.21-.34l4.06-2.14c.13-.07.28-.07.41 0l4.06 2.14c.13.07.21.2.21.34z"/></svg>
+                </a>
+                <a href="mailto:your.email@example.com" title="Email">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Email</title><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <!-- === ANDROID DEVELOPMENT BOX === -->
+            <section class="content-box">
+                <h2>Android Development</h2>
+                <div class="tags">
+                    <span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span><span>Supabase</span><span>MVVM</span><span>Material 3</span>
+                </div>
+                <ul class="content-list">
+                    <li>Building modern, native apps with a focus on clean UI/UX using <strong><a href="#">Kotlin</a></strong> and the declarative <strong><a href="#">Jetpack Compose</a></strong> framework.</li>
+                    <li>Proficient in creating beautiful, modern user interfaces following Google's <strong><a href="#">Material 3</a></strong> design guidelines.</li>
+                    <li>Implementing scalable software patterns like <strong><a href="#">MVVM</a></strong> to create maintainable and testable code.</li>
+                    <li>Integrating with BaaS platforms like <strong><a href="#">Firebase</a></strong> and <strong><a href="#">Supabase</a></strong> for authentication, cloud storage, and real-time data.</li>
+                </ul>
+                <div class="projects">
+                    <h4>Related Projects:</h4>
+                    <div class="carousel">
+                        <div class="carousel-track-container">
+                            <ul class="carousel-track">
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Aura Weather App</a></h5>
+                                        <p>A clean weather app built to demonstrate modern Android development practices.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">NoteStack</a></h5>
+                                        <p>A note-taking app using Jetpack DataStore for local persistence and Firebase for cloud sync.</p>
+                                    </div>
+                                </li>
+                                 <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Pocket Expense Tracker</a></h5>
+                                        <p>An intuitive app to track daily expenses, built with Material 3 components.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Compose Tetris</a></h5>
+                                        <p>A classic Tetris game clone built entirely with Jetpack Compose to explore complex state management.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Recipe Finder</a></h5>
+                                        <p>An app that fetches and displays recipes from a public API, featuring search and filter functionality.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === BACKEND & API DEVELOPMENT BOX === -->
+            <section class="content-box">
+                <h2>Backend & API Development</h2>
+                <div class="tags">
+                    <span>Golang</span><span>Python</span><span>PostgreSQL</span><span>MongoDB</span><span>REST APIs</span><span>Webhooks</span>
+                </div>
+                <ul class="content-list">
+                    <li>Engineering high-performance, concurrent backend systems and microservices using <strong><a href="#">Golang</a></strong>.</li>
+                    <li>Developing versatile and robust server-side applications and scripts with <strong><a href="#">Python</a></strong>.</li>
+                    <li>Designing and implementing clean, scalable <strong><a href="#">REST APIs</a></strong> and reliable <strong><a href="#">webhook endpoints</a></strong> for seamless system communication.</li>
+                </ul>
+                 <div class="projects">
+                    <h4>Related Projects:</h4>
+                    <div class="carousel">
+                        <div class="carousel-track-container">
+                            <ul class="carousel-track">
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Portfolio API</a></h5>
+                                        <p>The Go-based API that powers this website and other projects, featuring JWT authentication.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">URL Shortener Service</a></h5>
+                                        <p>A Python backend using FastAPI and PostgreSQL to create and manage shortened URLs.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Discord Bot Backend</a></h5>
+                                        <p>A service in Go that listens for webhook events and processes commands for a Discord bot.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Real-time Chat Server</a></h5>
+                                        <p>A backend for a chat application using Go and WebSockets for persistent, low-latency connections.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Product Scraper API</a></h5>
+                                        <p>A Python API that scrapes product data from e-commerce sites and returns it in a structured JSON format.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === DEVOPS, HOSTING & AUTOMATION BOX === -->
+            <section class="content-box">
+                <h2>DevOps, Hosting & Automation</h2>
+                <div class="tags">
+                    <span>Arch Linux</span><span>n8n</span><span>Docker</span><span>Self-Hosting</span><span>Git</span>
+                </div>
+                <ul class="content-list">
+                    <li>Daily driving a custom <strong><a href="#">Arch Linux</a></strong> environment ("Omarchy"), providing deep, low-level control and understanding of the OS.</li>
+                    <li>Automating complex development and personal workflows using the low-code platform <strong><a href="#">n8n</a></strong>.</li>
+                    <li>Proficient in containerizing applications with <strong><a href="#">Docker</a></strong> and deploying/self-hosting web services and APIs on private servers.</li>
+                </ul>
+                <div class="projects">
+                    <h4>Related Projects:</h4>
+                    <div class="carousel">
+                        <div class="carousel-track-container">
+                            <ul class="carousel-track">
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Automated CI/CD Pipeline</a></h5>
+                                        <p>An n8n workflow that automates testing and deployment on git push to a production server.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">My Dotfiles</a></h5>
+                                        <p>The configuration files that manage my entire Arch Linux setup, automated with a simple shell script.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Dockerized Media Server</a></h5>
+                                        <p>A self-hosted Plex server running in a Docker container for easy management and updates.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Automated Server Backup</a></h5>
+                                        <p>A cron job script that backs up critical database files to a cloud storage bucket automatically.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">GitHub Actions Linter</a></h5>
+                                        <p>A CI workflow that automatically lints and checks code formatting on every pull request.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === MACHINE LEARNING BOX === -->
+            <section class="content-box">
+                <h2>Machine Learning</h2>
+                <div class="tags">
+                    <span>Python</span><span>Scikit-learn</span><span>NumPy</span><span>Linear Regression</span><span>Logistic Regression</span>
+                </div>
+                <ul class="content-list">
+                    <li>Possessing a strong foundational knowledge of core machine learning concepts and data modeling.</li>
+                    <li>Capable of designing, training, and implementing fundamental models like <strong>Linear</strong> and <strong>Logistic Regression</strong> using <strong><a href="#">Python</a></strong> and <strong><a href="#">Scikit-learn</a></strong>.</li>
+                </ul>
+                <div class="projects">
+                    <h4>Related Projects:</h4>
+                    <div class="carousel">
+                        <div class="carousel-track-container">
+                            <ul class="carousel-track">
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Housing Price Predictor</a></h5>
+                                        <p>A Linear Regression model trained on a housing dataset to predict property values.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Spam Email Classifier</a></h5>
+                                        <p>A Logistic Regression model to classify emails as spam or not based on their content.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Iris Flower Classification</a></h5>
+                                        <p>A classic K-Nearest Neighbors model to classify species of Iris flowers based on measurements.</p>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide">
+                                    <div class="project-box">
+                                        <h5><a href="#">Movie Review Sentiment Analysis</a></h5>
+                                        <p>A model using Natural Language Processing (NLP) to determine if a movie review is positive or negative.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Let's build something great together. <a href="mailto:prathamgundikere@gmail.com">Get in touch</a>.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
+
