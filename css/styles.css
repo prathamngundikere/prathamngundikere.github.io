@@ -35,6 +35,15 @@
             letter-spacing: -1px;
         }
 
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;  /* This makes it a circle */
+            object-fit: cover;     /* This prevents the image from stretching */
+            border: 3px solid var(--box-border-color); /* Uses your theme's border color */
+            margin-bottom: 10px;
+        }
+
         header h3 {
             font-size: 1.25rem;
             font-weight: 400;
@@ -252,6 +261,11 @@
         }
         
         @media (max-width: 599px) {
+            .profile-image {
+                width: 120px;
+                height: 120px;
+            }
+
             header h1 {
                 font-size: 1.8rem; /* Adjust this value as needed */
                 letter-spacing: -0.5px;
